@@ -24,14 +24,3 @@ def test_note():
 
     note.refresh_from_db()
     assert note.author == User.objects.get(username="ghost")
-
-
-@pytest.mark.django_db
-def test_failing():
-    user = User(username="test")
-    user.save()
-
-    note = Note(title="Note 2", content="This is another note content", author=user)
-    note.save()
-
-    assert note.author.username == "ghost"
