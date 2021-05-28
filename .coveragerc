@@ -1,0 +1,15 @@
+[run]
+source = .
+branch = True
+
+[report]
+exclude_lines =
+    pragma: no cover
+    def __repr__
+    if __name__ == .__main__.:
+ignore_errors = True
+omit =
+    */tests/*
+    */node_modules/*
+    */migrations*/
+    ./manage.py
