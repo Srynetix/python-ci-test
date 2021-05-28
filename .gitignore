@@ -1,6 +1,15 @@
+# VSCode specific
 .vscode
+
+# Python specific
 .pyc
 __pycache__
 .mypy_cache
 .pytest_cache
+
+# Database files
 *.sqlite3
+
+# Coverage files
+.coverage
+coverage.xml
