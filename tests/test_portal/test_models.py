@@ -34,4 +34,4 @@ def test_failing():
     note = Note(title="Note 2", content="This is another note content", author=user)
     note.save()
 
-    assert note.author == User.objects.get(username="ghost")
+    assert note.author.username == "ghost"
