@@ -1,3 +1,3 @@
 # Python CI test
 
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+Demo repository using Poetry, pre-commit, pytest and GitHub Actions (with pytest annotations).
